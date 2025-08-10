@@ -2,7 +2,8 @@ namespace todoMAUI.Data
 {
     public static class Constants
     {
-        public const string DatabaseFilename = "AppSQLite.db3";
+        private const string DatabaseFilename = "todos.db";
+
 
         public static string DatabasePath =>
             $"Data Source={Path.Combine(FileSystem.AppDataDirectory, DatabaseFilename)}";
