@@ -11,7 +11,7 @@ Android
 - MVVM
 - Binding
 - XAML
-- Sqlite для храненя данных
+- Sqlite для хранения данных
 
 
 
